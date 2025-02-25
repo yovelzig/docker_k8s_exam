@@ -18,7 +18,7 @@ spec:
         - name: beckendcont
           image:  frenzy669/docker-backend-service:latest
           ports:
-            - containerPort: 5002
+            - containerPort: 5001
 ---            
 apiVersion: v1
 kind: Service
